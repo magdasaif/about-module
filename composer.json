@@ -1,10 +1,12 @@
 {
-    "name": "nwidart/about",
+    "name": "magdasaif/about-module",
     "description": "",
+    "type":"laravel-module",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "magdasaif",
+            "email": "magdasaif3@gmail.com"
         }
     ],
     "extra": {
@@ -26,5 +28,12 @@
         "psr-4": {
             "Modules\\About\\Tests\\": "tests/"
         }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "nwidart/laravel-modules": "^11.0",
+        "laravel/helpers": "^1.7"
     }
 }
